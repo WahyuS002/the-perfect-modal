@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import CurrentPage from "@/components/ui/current-page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={`${inter.className} relative`}>
+                <main className="flex min-h-screen flex-col items-center justify-center p-24">{children}</main>
+                <CurrentPage />
+            </body>
         </html>
     );
 }
