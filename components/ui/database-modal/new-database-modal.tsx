@@ -13,7 +13,7 @@ export default function NewDatabaseModal() {
                 </div>
                 <div className="space-x-2">
                     <Button variant="outline">New...</Button>
-                    <Button className="bg-indigo-600/90 text-white hover:bg-indigo-500">Confirm</Button>
+                    <Button>Confirm</Button>
                 </div>
             </DialogFooter>
         </DialogContent>

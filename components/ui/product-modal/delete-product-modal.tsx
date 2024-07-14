@@ -9,7 +9,7 @@ export default function DeleteProductModal() {
             </DialogHeader>
             <DialogFooter>
                 <Button variant="ghost">Cancel</Button>
-                <Button className="bg-indigo-600/90 text-white hover:bg-indigo-500">Confirm</Button>
+                <Button>Confirm</Button>
             </DialogFooter>
         </DialogContent>
     );
