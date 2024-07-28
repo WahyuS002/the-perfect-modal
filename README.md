@@ -1,4 +1,6 @@
 # The Perfect Modal Starter Code
+[Learn how to create the perfect modal in React](https://youtu.be/QpE95R90EaQ)
+
 
 ## What's included
 - Starter components
